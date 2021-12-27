@@ -1,0 +1,45 @@
+#first-div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /*display: none; */
+    visibility: hidden;
+}
+#second-div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.flex-container{
+    display: flex;
+    width: 100vw;
+    height: 350px;
+    background-color: aqua;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+#child1{
+    flex-shrink: 0;
+}
+
+#child2{
+    align-self: center;
+}
+
+#child3{
+    flex-shrink: 10;
+}
